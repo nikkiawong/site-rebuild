@@ -1,10 +1,7 @@
-<ul>
-  <li *ngFor="let post of childNewPosts">
-    {{post.headline}}
-    <ul>
-      <li>{{post.subheadline}}</li>
-      <li><img src="{{post.image}}"></li>
-      <li><a href="{{post.url}}">URL</a></li>
-    </ul>
-  </li>
-</ul>
+<div *ngFor="let post of childNewPosts">
+  <a href="{{post.url}}">
+  <img src="{{post.image}}">
+  <h3>{{post.headline}}</h3>
+  <p>{{post.subheadline}}</p>
+  </a>
+</div>

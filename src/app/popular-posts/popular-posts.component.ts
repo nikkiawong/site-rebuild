@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { PopularPost } from '../models/popularPost.model';
 
 @Component({
   selector: 'app-popular-posts',
@@ -7,6 +8,6 @@ import { Component } from '@angular/core';
 })
 export class PopularPostsComponent {
 
-  constructor() { }
+  @Input() childTopPosts: PopularPost[];
 
 }

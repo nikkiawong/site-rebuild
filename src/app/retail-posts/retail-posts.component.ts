@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { RetailPost } from '../models/retailPost.model';
 
 @Component({
   selector: 'app-retail-posts',
@@ -7,6 +8,6 @@ import { Component } from '@angular/core';
 })
 export class RetailPostsComponent {
 
-  constructor() { }
+  @Input() childRetailPosts: RetailPost[];
 
 }

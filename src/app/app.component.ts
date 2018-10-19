@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { RecentPost } from './models/recentPost.model';
 import { PopularPost } from './models/popularPost.model';
 import { FeaturePost } from './models/featurePost.model';
+import { RetailPost } from './models/retailPost.model';
 
 @Component({
   selector: 'app-root',
@@ -24,7 +25,13 @@ export class AppComponent {
 
   featuredPosts: FeaturePost[] = [
     new FeaturePost("The Amazing Lineup of Stars Joining “Mickey’s 90th Spectacular” on ABC Was Announced and We Are Excited", "https://ohmy.disney.com/wp-content/uploads/2018/09/MM90-Logo-2703-0831-black42-242x141.jpg", "https://ohmy.disney.com/news/2018/09/28/mickeys-90th-spectacular-abc-2/"),
-    new FeaturePost("Christy Carlson Romano Will Guest Star in Big Hero 6 The Series and We Have an Exclusive Clip! Christy Carlson Romano Will Guest Star in Big Hero 6 The Series and We Have an Exclusive Clip!", "https://ohmy.disney.com/wp-content/uploads/2018/09/christy-carlson-romano-trina-242x141.jpg", "https://ohmy.disney.com/news/2018/09/28/christy-carlson-romano-big-hero-6-series/")
+    new FeaturePost("Christy Carlson Romano Will Guest Star in Big Hero 6 The Series and We Have an Exclusive Clip!", "https://ohmy.disney.com/wp-content/uploads/2018/09/christy-carlson-romano-trina-242x141.jpg", "https://ohmy.disney.com/news/2018/09/28/christy-carlson-romano-big-hero-6-series/")
+  ]
+
+  retailPosts: RetailPost[] = [
+    new RetailPost("OUR WISH IS TO WEAR THIS MAGIC CARPET DENIM JACKET EVERY SINGLE DAY", "DISNEY CLOTHES", "https://ohmy.disney.com/wp-content/uploads/2018/10/C_OhMyDisney_AladdinJacket_02.jpg", 1,  "https://ohmy.disney.com/shop/disney-clothes/oh-my-disney-collection-magic-carpet-denim-jacket-aladdin/"),
+    new RetailPost("THIS TOY STORY ALIEN ONESIE WILL MAKE YOU THE COZIEST PERSON THIS HALLOWEEN", "DISNEY CLOTHES", "https://ohmy.disney.com/wp-content/uploads/2018/10/C_OhMyDisney_AlienOnesie_01.jpg", 1, "https://ohmy.disney.com/shop/disney-clothes/shop-toy-story-alien-onesie/"),
+    new RetailPost("CELEBRATE MICKEY MOUSE’S UPCOMING ANNIVERSARY WITH THIS AMAZING HISTORY BOOK", "DISNEY BOOKS", "https://ohmy.disney.com/wp-content/uploads/2018/10/C_OhMyDisney_MickeyMouseTaschenBook_01.jpg", "https://ohmy.disney.com/shop/disney-book/shop-taschen-walt-disneys-mickey-mouse-ultimate-history/")
   ]
 
 }

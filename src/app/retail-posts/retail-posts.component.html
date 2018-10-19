@@ -1,3 +1,7 @@
-<p>
-  retail-posts works!
-</p>
+<div *ngFor="let post of childRetailPosts">
+  <img src="{{post.image}}">
+  <a href="{{post.url}}">
+  <p class="small">{{post.shop}}</p>
+  <h3>{{post.headline}}</h3>
+  </a>
+</div>

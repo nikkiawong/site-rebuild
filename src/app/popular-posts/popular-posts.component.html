@@ -1,6 +1,12 @@
 <div *ngFor="let post of childTopPosts">
   <a href="{{post.url}}">
-  <img src="{{post.image}}">
-  <h4>{{post.headline}}</h4>
+    <div class="condensed-postbox">
+      <div class="condensed-postbox-img">
+        <img src="{{post.image}}">
+      </div>
+      <div class="condensed-postbox-content">
+        <h4>{{post.headline}}</h4>
+      </div>
+    </div>
   </a>
 </div>

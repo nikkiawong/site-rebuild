@@ -38,12 +38,16 @@ export class AppComponent {
 
   topPosts: PopularPost[] = [
     new PopularPost("Introducing the Oh My Disney ’90s Flashback Collection, Now Available at Disney Store and shopDisney", "https://ohmy.disney.com/wp-content/uploads/2018/10/ET_OhMyDisney_90sCollection.jpg", "https://ohmy.disney.com/news/2018/10/15/oh-my-disney-90s-flashback-collection-shopdisney-disney-store/"),
-    new PopularPost("The First Aladdin Teaser Is Here and We’ll Have the Chills Forever", "https://ohmy.disney.com/wp-content/uploads/2018/10/featured-sunlit-thumb-250x188.webp", "https://ohmy.disney.com/news/2018/10/11/first-aladdin-teaser-trailer/")
+    new PopularPost("The First Aladdin Teaser Is Here and We’ll Have the Chills Forever", "https://ohmy.disney.com/wp-content/uploads/2018/10/featured-sunlit-thumb-250x188.webp", "https://ohmy.disney.com/news/2018/10/11/first-aladdin-teaser-trailer/"),
+    new PopularPost("Your Zodiac Sign Can Tell Us Your Top 3 Favorite Disney Movies", "https://ohmy.disney.com/wp-content/uploads/2018/10/ET_OhMyDisney_ZodiacSignFaveMovie-1.jpg", "https://ohmy.disney.com/quiz/2018/10/04/quiz-zodiac-favorite-disney-movies/"),
+    new PopularPost("Freeform Is Getting Us Hyped for the Holidays Earlier Than Ever With Their Kickoff to Christmas Schedule", "https://ohmy.disney.com/wp-content/uploads/2014/11/The-Santa-Clause-250x188.webp", "https://ohmy.disney.com/news/2018/10/10/freeform-kickoff-to-christmas-schedule/")
   ]
 
   featuredPosts: FeaturePost[] = [
     new FeaturePost("The Amazing Lineup of Stars Joining “Mickey’s 90th Spectacular” on ABC Was Announced and We Are Excited", "https://ohmy.disney.com/wp-content/uploads/2018/09/MM90-Logo-2703-0831-black42-242x141.jpg", "https://ohmy.disney.com/news/2018/09/28/mickeys-90th-spectacular-abc-2/"),
-    new FeaturePost("Christy Carlson Romano Will Guest Star in Big Hero 6 The Series and We Have an Exclusive Clip!", "https://ohmy.disney.com/wp-content/uploads/2018/09/christy-carlson-romano-trina-242x141.jpg", "https://ohmy.disney.com/news/2018/09/28/christy-carlson-romano-big-hero-6-series/")
+    new FeaturePost("Christy Carlson Romano Will Guest Star in Big Hero 6 The Series and We Have an Exclusive Clip!", "https://ohmy.disney.com/wp-content/uploads/2018/09/christy-carlson-romano-trina-242x141.jpg", "https://ohmy.disney.com/news/2018/09/28/christy-carlson-romano-big-hero-6-series/"),
+    new FeaturePost("DuckTales Season 3 Is Coming to Disney Channel in 2019 and It’s a Dream Come True", "https://ohmy.disney.com/wp-content/uploads/2018/09/DuckTales-season-3-recording-studio-242x141.jpg", "https://ohmy.disney.com/news/2018/09/21/ducktales-season-three-disney-channel/"),
+    new FeaturePost("Meet New Characters From Ralph Breaks the Internet in the Latest Trailer!", "https://ohmy.disney.com/wp-content/uploads/2018/09/WIR2-RGB-mono_fullcomp.0006-242x141.jpg", "https://ohmy.disney.com/news/2018/09/20/ralph-breaks-the-internet-trailer-poster/")
   ]
 
   retailPosts: RetailPost[] = [

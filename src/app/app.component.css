@@ -1,0 +1,35 @@
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-links > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+.container {
+  margin-left: 5%;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.main-content {
+  width: 60%;
+  margin-right: 3%;
+}
+
+.sidebar {
+  width: 15%;
+}
+
+.top-featured-post img {
+  width: 100%;
+}

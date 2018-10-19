@@ -91,10 +91,15 @@ a {
   justify-content: center;
 }
 
+.ad {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .ad img {
   margin-top: 20px;
-  width: 50%;
-  transform: translateX(50%);
+  width: 100%;
 }
 
 .main-content {

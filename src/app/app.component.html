@@ -1,6 +1,106 @@
-<h1>Oh My Disney</h1>
-<app-recent-posts [childNewPosts]="newPosts"></app-recent-posts>
-<h3>Popular Posts</h3>
-<app-popular-posts [childTopPosts]="topPosts"></app-popular-posts>
-<app-retail-posts [childRetailPosts]="retailPosts"></app-retail-posts>
-<app-featured-posts [childFeaturedPosts]="featuredPosts"></app-featured-posts>
+<div class="navbar">
+  <div class="top-nav">
+    <div class="search">
+      <input type="text" name="search" placeholder="SEARCH">
+    </div>
+    <div class="logo">
+      <h1>Oh My Disney</h1>
+    </div>
+    <div class="sns">
+      <!-- social media links go here -->
+    </div>
+  </div>
+  <div class="nav-links">
+    <ul>
+      <li><a href="">QUIZ</a></li>
+      <li><a href="">NEWS</a></li>
+      <li><a href="">QUOTES</a></li>
+      <li><a href="">MOVIES</a></li>
+      <li><a href="">FOOD</a></li>
+      <li><a href="">PARKS</a></li>
+      <li><a href="">TV</a></li>
+      <li><a href="">MUSIC</a></li>
+      <li><a href="">VIDEO</a></li>
+      <li><a href="">SHOP</a></li>
+    </ul>
+  </div>
+</div>
+<div class="top-featured-post">
+  <img src="https://lumiere-a.akamaihd.net/v1/images/image_46568438.jpeg" alt="">
+  <div class="vid-description">
+    <div class="vid-title">
+      <h3><a href="https://ohmy.disney.com/news/2018/10/09/watch-hocus-pocus-with-kenny-ortega/">WATCH HOCUS POCUS WITH DIRECTOR KENNY ORTEGA</a></h3>
+    </div>
+    <div class="vid-category">
+      <p>News</p>
+    </div>
+  </div>
+</div>
+<div class="recent-posts">
+  <app-recent-posts [childNewPosts]="newPosts"></app-recent-posts>
+</div>
+<div class="sidebar">
+  <div class="newsletter">
+    <h3>GET THE OH MY DISNEY NEWSLETTER</h3>
+    <a href="#">SIGN UP NOW</a>
+    <p><a href="#">Privacy Policy</a></p>
+    <div class="sidebar-sns">
+      <!-- social media icons -->
+    </div>
+  </div>
+  <div class="popular-posts">
+    <h3>Popular Posts</h3>
+    <app-popular-posts [childTopPosts]="topPosts"></app-popular-posts>
+  </div>
+</div>
+<div class="retail-posts">
+  <app-retail-posts [childRetailPosts]="retailPosts"></app-retail-posts>
+</div>
+<div class="footer-posts">
+  <div class="footer-popular-posts">
+    <h3>Popular Posts</h3>
+    <app-popular-posts [childTopPosts]="topPosts"></app-popular-posts>
+  </div>
+  <div class="footer-featured-posts">
+    <app-featured-posts [childFeaturedPosts]="featuredPosts"></app-featured-posts>
+  </div>
+  <div class="follow">
+    <ul>
+      <li>Facebook</li>
+      <li>Instagram</li>
+      <li>YouTube</li>
+    </ul>
+  </div>
+</div>
+<div class="footer">
+  <div class="footer-logo">
+    <h5>OH MY DISNEY</h5>
+  </div>
+  <div class="footer-links-1">
+    <ul>
+      <li><a href="#">ABOUT DISNEY</a></li>
+      <li><a href="#">HELP & GUEST SERVICES</a></li>
+      <li><a href="#">ADVERTISE WITH US</a></li>
+      <li><a href="#">CAREERS</a></li>
+      <li><a href="#">CONTACT US</a></li>
+      <li><a href="#">DISNEY STYLE</a></li>
+      <li><a href="#">STAR WARS</a></li>
+      <li><a href="#">BABBLE</a></li>
+      <li><a href="#">FAMILY</a></li>
+      <li><a href="#">DISNEY</a></li>
+    </ul>
+  </div>
+  <div class="footer-links-2">
+    <ul>
+      <li><a href="#">TERMS OF USE</a></li>
+      <li><a href="#">LEGAL NOTICES</a></li>
+      <li><a href="#">PRIVACY POLICY</a></li>
+      <li><a href="#">YOUR CALIFORNIA PRIVACY RIGHTS</a></li>
+      <li><a href="#">CHILDREN'S ONLINE PRIVACY</a></li>
+      <li><a href="#">INTEREST-BASED ADS</a></li>
+    </ul>
+  </div>
+  <div class="copyright">
+    <p>© DISNEY. ALL RIGHTS RESERVED.</p>
+  </div>
+</div>

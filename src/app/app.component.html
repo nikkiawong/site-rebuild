@@ -1,4 +1,14 @@
 <h1>Oh My Disney</h1>
+<ul>
+  <li *ngFor="let post of newPosts">
+    {{post.headline}}
+    <ul>
+      <li>{{post.subheadline}}</li>
+      <li><img src="{{post.image}}"></li>
+      <li><a href="{{post.url}}">URL</a></li>
+    </ul>
+  </li>
+</ul>
 <app-recent-posts></app-recent-posts>
 <app-popular-posts></app-popular-posts>
 <app-retail-posts></app-retail-posts>

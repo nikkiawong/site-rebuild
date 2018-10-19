@@ -151,16 +151,37 @@ a {
   width: 100%;
 }
 
+.footer-posts-background {
+  background-color: #f9f9f9;
+  margin-top: 40px;
+}
+
 .footer-posts {
   display: flex;
   flex-direction: row;
   margin-left: 7%;
   margin-right: 7%;
-  color: #636363;
+  color: #595959;
 }
 
 .footer-popular-posts, .footer-featured-posts {
   width: 37%;
+  border-right: 1px solid #d8d8d8;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.follow {
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.follow ul {
+  list-style-type: none;
+  line-height: 1.5;
 }
 
 .footer {

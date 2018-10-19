@@ -6,3 +6,12 @@ body {
 a {
   text-decoration: none;
 }
+
+p {
+  color: #3f3f3f;
+}
+
+h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+}

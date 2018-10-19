@@ -37,7 +37,7 @@ export class AppComponent {
   ]
 
   topPosts: PopularPost[] = [
-    new PopularPost("INTRODUCING THE OH MY DISNEY ’90S FLASHBACK COLLECTION, NOW AVAILABLE AT DISNEY STORE AND SHOPDISNEY", "https://ohmy.disney.com/wp-content/uploads/2018/10/ET_OhMyDisney_90sCollection.jpg", "https://ohmy.disney.com/news/2018/10/15/oh-my-disney-90s-flashback-collection-shopdisney-disney-store/"),
+    new PopularPost("Introducing the Oh My Disney ’90s Flashback Collection, Now Available at Disney Store and shopDisney", "https://ohmy.disney.com/wp-content/uploads/2018/10/ET_OhMyDisney_90sCollection.jpg", "https://ohmy.disney.com/news/2018/10/15/oh-my-disney-90s-flashback-collection-shopdisney-disney-store/"),
     new PopularPost("The First Aladdin Teaser Is Here and We’ll Have the Chills Forever", "https://ohmy.disney.com/wp-content/uploads/2018/10/featured-sunlit-thumb-250x188.webp", "https://ohmy.disney.com/news/2018/10/11/first-aladdin-teaser-trailer/")
   ]
 

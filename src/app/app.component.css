@@ -33,3 +33,14 @@
 .top-featured-post img {
   width: 100%;
 }
+
+.footer-posts {
+  display: flex;
+  flex-direction: row;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.footer-popular-posts, .footer-featured-posts {
+  width: 37%;
+}

@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { FeaturePost } from '../models/featurePost.model';
 
 @Component({
   selector: 'app-featured-posts',
@@ -7,6 +8,6 @@ import { Component } from '@angular/core';
 })
 export class FeaturedPostsComponent {
 
-  constructor() { }
+  @Input() childFeaturedPosts: FeaturePost[];
 
 }

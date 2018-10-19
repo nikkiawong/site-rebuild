@@ -1,3 +1,6 @@
-<p>
-  featured-posts works!
-</p>
+<div *ngFor="let post of childFeaturedPosts">
+  <a href="{{post.url}}">
+  <img src="{{post.image}}">
+  <h4>{{post.headline}}</h4>
+  </a>
+</div>

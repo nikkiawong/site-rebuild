@@ -1,0 +1,31 @@
+h4 {
+  margin-top: 0;
+  margin-left: 0;
+  font-weight: 300;
+}
+
+a {
+  color: #707070;
+  font-size: 14px;
+}
+
+.condensed-postbox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.condensed-postbox-img {
+  width: 30%;
+  padding-right: 10px;
+}
+
+.condensed-postbox-img img {
+  width: 100%;
+}
+
+.condensed-postbox-content {
+  width: 100%;
+}

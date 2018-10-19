@@ -1,0 +1,33 @@
+h3 {
+  margin-top: 0;
+}
+
+a {
+  color: #dc2047;
+}
+
+.postbox {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #d8d8d8;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+p {
+  font-size: 18px;
+}
+
+.postbox-image {
+  width: 70%;
+  margin-right: 20px;
+}
+
+.postbox-image img {
+  width: 100%;
+}
+
+.postbox-content {
+  width: 100%;
+}

@@ -1,7 +1,13 @@
 <div *ngFor="let post of childNewPosts">
-  <a href="{{post.url}}">
-  <img src="{{post.image}}">
-  <h3>{{post.headline}}</h3>
-  <p>{{post.subheadline}}</p>
-  </a>
+    <a href="{{post.url}}">
+      <div class="postbox">
+        <div class="postbox-image">
+          <img src="{{post.image}}">
+        </div>
+        <div class="postbox-content">
+          <h3>{{post.headline}}</h3>
+          <p>{{post.subheadline}}</p>
+        </div>
+      </div>
+    </a>
 </div>

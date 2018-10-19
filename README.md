@@ -54,15 +54,15 @@ https://ohmy.disney.com/
 | When user clicks the next page link, the next 21 most recent posts are displayed | user clicks on "2" | 21 next most recently published posts and 4 most popular posts |
 | When user clicks a category link in the navigation bar, the next 24 most recent posts labeled with that category are displayed | user clicks on "FOOD" | 24 most recently published Food posts |
 
-* Features
-  * Completed
-    * Recent, popular, feature, and retail posts are displayed to the user
-    * User can click posts to view post page
-  * To Be Added
-    * Working database
-    * Deployed to Firebase
-    * Multi-page functionality
-    * Filter posts by category
+## Features
+* Completed
+  * Recent, popular, feature, and retail posts are displayed to the user
+  * User can click posts to view post page
+* To Be Added
+  * Working database
+  * Deployed to Firebase
+  * Multi-page functionality
+  * Filter posts by category
 
 ## Setup on OSX
 

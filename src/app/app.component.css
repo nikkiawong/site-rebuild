@@ -6,6 +6,12 @@ a {
   font-weight: 300;
 }
 
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
 .top-nav {
   display: flex;
   flex-direction: row;
@@ -98,7 +104,7 @@ a {
 }
 
 .ad img {
-  margin-top: 20px;
+  margin-top: 150px;
   width: 100%;
 }
 

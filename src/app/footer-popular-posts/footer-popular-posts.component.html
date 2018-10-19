@@ -1,0 +1,12 @@
+<div *ngFor="let post of childFooterPopular">
+  <a href="{{post.url}}">
+    <div class="condensed-postbox">
+      <div class="condensed-postbox-img">
+        <img src="{{post.image}}">
+      </div>
+      <div class="condensed-postbox-content">
+        <h4>{{post.headline}}</h4>
+      </div>
+    </div>
+  </a>
+</div>

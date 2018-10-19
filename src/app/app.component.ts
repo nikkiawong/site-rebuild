@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { RecentPost } from './models/recentPost.model';
 import { PopularPost } from './models/popularPost.model';
+import { FooterPopularPost } from './models/footerPopularPost.model';
 import { FeaturePost } from './models/featurePost.model';
 import { RetailPost } from './models/retailPost.model';
 
@@ -54,6 +55,13 @@ export class AppComponent {
     new RetailPost("OUR WISH IS TO WEAR THIS MAGIC CARPET DENIM JACKET EVERY SINGLE DAY", "DISNEY CLOTHES", "https://ohmy.disney.com/wp-content/uploads/2018/10/C_OhMyDisney_AladdinJacket_02.jpg", 1,  "https://ohmy.disney.com/shop/disney-clothes/oh-my-disney-collection-magic-carpet-denim-jacket-aladdin/"),
     new RetailPost("THIS TOY STORY ALIEN ONESIE WILL MAKE YOU THE COZIEST PERSON THIS HALLOWEEN", "DISNEY CLOTHES", "https://ohmy.disney.com/wp-content/uploads/2018/10/C_OhMyDisney_AlienOnesie_01.jpg", 1, "https://ohmy.disney.com/shop/disney-clothes/shop-toy-story-alien-onesie/"),
     new RetailPost("CELEBRATE MICKEY MOUSE’S UPCOMING ANNIVERSARY WITH THIS AMAZING HISTORY BOOK", "DISNEY BOOKS", "https://ohmy.disney.com/wp-content/uploads/2018/10/C_OhMyDisney_MickeyMouseTaschenBook_01.jpg", 2,  "https://ohmy.disney.com/shop/disney-book/shop-taschen-walt-disneys-mickey-mouse-ultimate-history/")
+  ]
+
+  footerPopularPosts: FooterPopularPost[] = [
+    new FooterPopularPost("Can You Guess the ‘90s Disney Movie from One Random Clue?", "https://ohmy.disney.com/wp-content/uploads/2018/09/ET_OhMyDisney_Guess90sMovieFromOneClue.jpg", "https://ohmy.disney.com/quiz/2018/09/23/quiz-guess-90s-disney-movie-one-random-clue/"),
+    new FooterPopularPost("Only a True Disney Princess Fan Can Get 100% on This Quiz", "https://ohmy.disney.com/wp-content/uploads/2018/09/I_OhMyDisney_TruePrincessFansOnly_Featured-242x141.jpg", "https://ohmy.disney.com/quiz/2018/09/22/true-disney-princess-fan-100-percent-quiz/"),
+    new FooterPopularPost("Can You Guess the Disney Character Based on the Sketch We Drew with Our Non-Dominant Hand?", "https://ohmy.disney.com/wp-content/uploads/2018/09/ET_OhMyDisney_NonDominantHandQuiz.jpg", "https://ohmy.disney.com/quiz/2018/09/20/quiz-guess-character-sketch-non-dominant-hand/"),
+    new FooterPopularPost("Match the Dwelling to the Disney Pixar Character That Lives There", "https://ohmy.disney.com/wp-content/uploads/2018/09/et_ohmydisney_matchdwellingtocharacter.jpg", "https://ohmy.disney.com/quiz/2018/09/17/quiz-match-dwelling-disney-pixar-character/")
   ]
 
 }

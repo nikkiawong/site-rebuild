@@ -7,6 +7,7 @@ import { RecentPostsComponent } from './recent-posts/recent-posts.component';
 import { PopularPostsComponent } from './popular-posts/popular-posts.component';
 import { RetailPostsComponent } from './retail-posts/retail-posts.component';
 import { FeaturedPostsComponent } from './featured-posts/featured-posts.component';
+import { FooterPopularPostsComponent } from './footer-popular-posts/footer-popular-posts.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { FeaturedPostsComponent } from './featured-posts/featured-posts.componen
     RecentPostsComponent,
     PopularPostsComponent,
     RetailPostsComponent,
-    FeaturedPostsComponent
+    FeaturedPostsComponent,
+    FooterPopularPostsComponent
   ],
   imports: [
     BrowserModule

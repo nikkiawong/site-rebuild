@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { RecentPost } from '../models/recentPost.model';
 
 @Component({
   selector: 'app-recent-posts',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./recent-posts.component.css']
 })
 export class RecentPostsComponent {
+
+  @Input() childNewPosts: RecentPost[];
 
 }

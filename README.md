@@ -8,6 +8,9 @@
 
 This application is a site rebuild of the Oh My Disney website.
 
+## Live Site
+https://ohmy.disney.com/
+
 ## Planning
 * Components:
   * Recent Posts
@@ -25,6 +28,10 @@ This application is a site rebuild of the Oh My Disney website.
       * Shop Name
       * Image
       * Cost
+  * Featured Posts
+    * Required information for each post:
+      * Headline
+      * Image
 * Stretch goals:
   * Implementing multi-page functionality
   * Styling

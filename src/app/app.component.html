@@ -2,6 +2,9 @@
 <div class="container">
   <div class="main-content">
     <router-outlet></router-outlet>
+    <div class="retail-posts">
+      <app-retail-posts [childRetailPosts]="retailPosts"></app-retail-posts>
+    </div>
   </div>
   <div class="sidebar">
     <div class="newsletter">

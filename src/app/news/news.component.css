@@ -21,7 +21,7 @@ h3 {
 
 h4 {
   text-align: center;
-  font-size: 25px;
+  font-size: 22px;
   color: #dc2047;
   border: 4px solid #dc2047;
   margin-left: 10px;
@@ -38,7 +38,7 @@ h4 {
   width: 23%;
 }
 
-.latest-header {
+.subsection-header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -54,7 +54,7 @@ iframe:hover {
   transform: scale(1.02);
 }
 
-.latest-videos {
+.subsection-videos {
   display: flex;
   flex-direction: row;
 }
@@ -63,7 +63,7 @@ iframe:hover {
   margin-right: 10px;
 }
 
-.latest {
+.subsection {
   margin-bottom: 30px;
 }
 

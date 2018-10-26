@@ -11,6 +11,12 @@ This application is a site rebuild of the Oh My Disney website.
 ## Live Site
 https://ohmy.disney.com/
 
+| Screenshot  | Description |
+| ------------- | ------------- |
+| <img src="./images/omd_welcome.png">  | Landing Page  |
+| <img src="./images/omd_footer.png">  | Footer  |
+| <img src="./images/omd_news.png">  | News Page  |
+
 ## Planning
 * Components:
   * Recent Posts
@@ -45,24 +51,33 @@ https://ohmy.disney.com/
   * Implementing multi-page functionality
   * Styling
 
+## Clone Screenshots
+
+| Screenshot  | Description |
+| ------------- | ------------- |
+| <img src="./images/clone_welcome.png">  | Landing Page  |
+| <img src="./images/clone_welcome2.png">  | Recent Posts  |
+| <img src="./images/clone_footer.png">  | Footer  |
+| <img src="./images/clone_news.png">  | News Page  |
+
 ## Specs
 
 | Behavior | Example Input | Example Output |
 |----------|-------|--------|
 | On page load, the 24 most recent posts and 4 most popular posts are displayed | page load | 24 most recently published posts and 4 most popular posts |
 | When user clicks on a post, the page for that post is displayed | user clicks on "ALL THE FOOD WE ATE AT THE EPCOT INTERNATIONAL FOOD & WINE FESTIVAL" | "ALL THE FOOD WE ATE AT THE EPCOT INTERNATIONAL FOOD & WINE FESTIVAL" post page is loaded |
-| When user clicks the next page link, the next 21 most recent posts are displayed | user clicks on "2" | 21 next most recently published posts and 4 most popular posts |
-| When user clicks a category link in the navigation bar, the next 24 most recent posts labeled with that category are displayed | user clicks on "FOOD" | 24 most recently published Food posts |
+| When user clicks a category link in the navigation bar, the corresponding page for that category displayed | user clicks on "NEWS" | News page |
 
 ## Features
 * Completed
   * Recent, popular, feature, and retail posts are displayed to the user
   * User can click posts to view post page
-* To Be Added
   * Working database
-  * Deployed to Firebase
-  * Multi-page functionality
+  * Multi-page functionality/routing
+* To Be Added
   * Filter posts by category
+  * Deployed to Firebase
+  * View next page of posts
 
 ## Setup on OSX
 

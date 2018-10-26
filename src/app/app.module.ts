@@ -10,6 +10,7 @@ import { PopularPostsComponent } from './popular-posts/popular-posts.component';
 import { RetailPostsComponent } from './retail-posts/retail-posts.component';
 import { FeaturedPostsComponent } from './featured-posts/featured-posts.component';
 import { FooterPopularPostsComponent } from './footer-popular-posts/footer-popular-posts.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -25,7 +26,8 @@ export const firebaseConfig = {
     PopularPostsComponent,
     RetailPostsComponent,
     FeaturedPostsComponent,
-    FooterPopularPostsComponent
+    FooterPopularPostsComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

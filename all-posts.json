@@ -1,5 +1,4 @@
 { "posts": [{
-  "recent": [{
     "headline": "YOU MUST CHECK OUT THESE AMAZING WORKS OF ART FROM THE GALLERY NUCLEUS EXHIBITION CELEBRATING 20 YEARS OF MULAN",
     "subheadline": "The tribute exhibition runs from October 20 to November 4.",
     "image": "https://ohmy.disney.com/wp-content/uploads/2018/10/ET_Mulan-art-show.jpg",
@@ -104,78 +103,6 @@
     "subheadline": "Here are some wise words from Walt!",
     "image": "https://ohmy.disney.com/wp-content/uploads/2018/10/thumb2-Walt-Disney-in-his-office-242x141.webp",
     "url": "https://ohmy.disney.com/quotes/2018/10/01/inspiring-walt-disney-quotes/"
-    }],
-  "popular": [{
-    "headline": "Introducing the Oh My Disney ’90s Flashback Collection, Now Available at Disney Store and shopDisney",
-    "image": "https://ohmy.disney.com/wp-content/uploads/2018/10/ET_OhMyDisney_90sCollection.jpg",
-    "url": "https://ohmy.disney.com/news/2018/10/15/oh-my-disney-90s-flashback-collection-shopdisney-disney-store/"
-    }, {
-    "headline": "The First Aladdin Teaser Is Here and We’ll Have the Chills Forever",
-    "image": "https://ohmy.disney.com/wp-content/uploads/2018/10/featured-sunlit-thumb-250x188.webp",
-    "url": "https://ohmy.disney.com/news/2018/10/11/first-aladdin-teaser-trailer/"
-    }, {
-    "headline": "Your Zodiac Sign Can Tell Us Your Top 3 Favorite Disney Movies",
-    "image": "https://ohmy.disney.com/wp-content/uploads/2018/10/ET_OhMyDisney_ZodiacSignFaveMovie-1.jpg",
-    "url": "https://ohmy.disney.com/quiz/2018/10/04/quiz-zodiac-favorite-disney-movies/"
-    }, {
-    "headline": "Freeform Is Getting Us Hyped for the Holidays Earlier Than Ever With Their Kickoff to Christmas Schedule",
-    "image": "https://ohmy.disney.com/wp-content/uploads/2014/11/The-Santa-Clause-250x188.webp",
-    "url": "https://ohmy.disney.com/news/2018/10/10/freeform-kickoff-to-christmas-schedule/"
-    }],
-  "feature": [{
-    "headline": "The Amazing Lineup of Stars Joining “Mickey’s 90th Spectacular” on ABC Was Announced and We Are Excited",
-    "image": "https://ohmy.disney.com/wp-content/uploads/2018/09/MM90-Logo-2703-0831-black42-242x141.jpg",
-    "url": "https://ohmy.disney.com/news/2018/09/28/mickeys-90th-spectacular-abc-2/"
-    }, {
-    "headline": "Christy Carlson Romano Will Guest Star in Big Hero 6 The Series and We Have an Exclusive Clip!",
-    "image": "https://ohmy.disney.com/wp-content/uploads/2018/09/christy-carlson-romano-trina-242x141.jpg",
-    "url": "https://ohmy.disney.com/news/2018/09/28/christy-carlson-romano-big-hero-6-series/"
-    }, {
-    "headline": "DuckTales Season 3 Is Coming to Disney Channel in 2019 and It’s a Dream Come True",
-    "image": "https://ohmy.disney.com/wp-content/uploads/2018/09/DuckTales-season-3-recording-studio-242x141.jpg",
-    "url": "https://ohmy.disney.com/news/2018/09/21/ducktales-season-three-disney-channel/"
-    }, {
-    "headline": "Meet New Characters From Ralph Breaks the Internet in the Latest Trailer!",
-    "image": "https://ohmy.disney.com/wp-content/uploads/2018/09/WIR2-RGB-mono_fullcomp.0006-242x141.jpg",
-    "url": "https://ohmy.disney.com/news/2018/09/20/ralph-breaks-the-internet-trailer-poster/"
-    }],
-  "retail": [{
-    "headline": "OUR WISH IS TO WEAR THIS MAGIC CARPET DENIM JACKET EVERY SINGLE DAY",
-    "shop": "DISNEY CLOTHES",
-    "image": "https://ohmy.disney.com/wp-content/uploads/2018/10/C_OhMyDisney_AladdinJacket_02.jpg",
-    "cost": 1,
-    "url": "https://ohmy.disney.com/shop/disney-clothes/oh-my-disney-collection-magic-carpet-denim-jacket-aladdin/"
-    }, {
-    "headline": "THIS TOY STORY ALIEN ONESIE WILL MAKE YOU THE COZIEST PERSON THIS HALLOWEEN",
-    "shop": "DISNEY CLOTHES",
-    "image": "https://ohmy.disney.com/wp-content/uploads/2018/10/C_OhMyDisney_AlienOnesie_01.jpg",
-    "cost": 1,
-    "url": "https://ohmy.disney.com/shop/disney-clothes/shop-toy-story-alien-onesie/"
-    }, {
-    "headline": "CELEBRATE MICKEY MOUSE’S UPCOMING ANNIVERSARY WITH THIS AMAZING HISTORY BOOK",
-    "shop": "DISNEY BOOKS",
-    "image": "https://ohmy.disney.com/wp-content/uploads/2018/10/C_OhMyDisney_MickeyMouseTaschenBook_01.jpg",
-    "cost": 2,
-    "url": "https://ohmy.disney.com/shop/disney-book/shop-taschen-walt-disneys-mickey-mouse-ultimate-history/"
-    }],
-  "footer": [{
-    "headline": "Can You Guess the ‘90s Disney Movie from One Random Clue?",
-    "image": "https://ohmy.disney.com/wp-content/uploads/2018/09/ET_OhMyDisney_Guess90sMovieFromOneClue.jpg",
-    "url": "https://ohmy.disney.com/quiz/2018/09/23/quiz-guess-90s-disney-movie-one-random-clue/"
-    }, {
-    "headline": "Only a True Disney Princess Fan Can Get 100% on This Quiz",
-    "image": "https://ohmy.disney.com/wp-content/uploads/2018/09/I_OhMyDisney_TruePrincessFansOnly_Featured-242x141.jpg",
-    "url": "https://ohmy.disney.com/quiz/2018/09/22/true-disney-princess-fan-100-percent-quiz/"
-    }, {
-    "headline": "Can You Guess the Disney Character Based on the Sketch We Drew with Our Non-Dominant Hand?",
-    "image": "https://ohmy.disney.com/wp-content/uploads/2018/09/ET_OhMyDisney_NonDominantHandQuiz.jpg",
-    "url": "https://ohmy.disney.com/quiz/2018/09/20/quiz-guess-character-sketch-non-dominant-hand/"
-    }, {
-    "headline": "Match the Dwelling to the Disney Pixar Character That Lives There",
-    "image": "https://ohmy.disney.com/wp-content/uploads/2018/09/et_ohmydisney_matchdwellingtocharacter.jpg",
-    "url": "https://ohmy.disney.com/quiz/2018/09/17/quiz-match-dwelling-disney-pixar-character/"
     }]
-
-  }]
 
 }

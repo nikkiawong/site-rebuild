@@ -1,5 +1,4 @@
 import { Component, OnInit, Input } from '@angular/core';
-// import { RecentPost } from '../models/recentPost.model';
 import { PostService } from '../post.service';
 import { FirebaseListObservable } from 'angularfire2/database';
 
@@ -17,7 +16,5 @@ export class RecentPostsComponent implements OnInit {
   ngOnInit(){
     this.posts = this.postService.getPosts();
   }
-
-  // @Input() childNewPosts: RecentPost[];
 
 }

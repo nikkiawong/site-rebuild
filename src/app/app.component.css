@@ -76,33 +76,6 @@ a {
   margin-right: auto;
 }
 
-.top-featured-post {
-  border-top: 1px solid #d8d8d8;
-  border-bottom: 1px solid #d8d8d8;
-  padding-top: 25px;
-  padding-bottom: 30px;
-  margin-bottom: 3%;
-}
-
-.vid-description {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.vid-title {
-  margin-left: 4%;
-  width: 60%;
-}
-
-.vid-title h3 a {
-  color: #dc2047;
-}
-
-.top-featured-post img {
-  width: 100%;
-}
-
 .footer-posts-background {
   background-color: #f9f9f9;
   margin-top: 40px;

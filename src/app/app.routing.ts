@@ -6,7 +6,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 const appRoutes: Routes = [
   {
     path: '',
-    component: WelcomeComponent;
+    component: WelcomeComponent
   },
  {
   path: 'news',

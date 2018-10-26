@@ -1,3 +1,17 @@
+.cost {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  color: black;
+  padding-top: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  letter-spacing: 1px;
+}
+
+.gray {
+  color: gray;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -8,6 +22,21 @@ img {
   align-items: flex-end;
   width: 100%;
   margin-bottom: 20px;
+}
+
+.retail-cost {
+  position: absolute;
+  display: flex;
+  align-self: flex-start;
+  background-color: white;
+  margin-left: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.retail-cost p {
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .retail-body {

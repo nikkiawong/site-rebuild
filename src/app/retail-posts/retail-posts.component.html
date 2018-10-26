@@ -1,5 +1,13 @@
 <div class="retail-box" *ngFor="let post of childRetailPosts">
   <img src="{{post.image}}">
+  <div class="retail-cost">
+    <div *ngIf="post.cost === 1">
+      <p class="cost">$$<span class="gray">$</span></p>
+    </div>
+    <div *ngIf="post.cost === 2">
+      <p class="cost">$<span class="gray">$$</span></p>
+    </div>
+  </div>
   <div class="retail-body">
     <a href="{{post.url}}">
       <p class="small">{{post.shop}}</p>

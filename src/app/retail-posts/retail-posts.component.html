@@ -1,7 +1,9 @@
-<div *ngFor="let post of childRetailPosts">
+<div class="retail-box" *ngFor="let post of childRetailPosts">
   <img src="{{post.image}}">
-  <a href="{{post.url}}">
-  <p class="small">{{post.shop}}</p>
-  <h3>{{post.headline}}</h3>
-  </a>
+  <div class="retail-body">
+    <a href="{{post.url}}">
+      <p class="small">{{post.shop}}</p>
+      <h3>{{post.headline}}</h3>
+    </a>
+  </div>
 </div>

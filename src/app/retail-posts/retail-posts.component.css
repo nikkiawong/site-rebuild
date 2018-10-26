@@ -1,0 +1,32 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+.retail-box {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.retail-body {
+  position: absolute;
+  padding: 20px;
+}
+
+a, p {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.small {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+a h3 {
+  width: 58%;
+  font-size: 2vw;
+  margin-top: 5px;
+}

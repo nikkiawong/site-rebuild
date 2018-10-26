@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { masterFirebaseConfig } from './api-keys';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
 
 import { AppComponent } from './app.component';
 import { RecentPostsComponent } from './recent-posts/recent-posts.component';
@@ -9,6 +11,12 @@ import { RetailPostsComponent } from './retail-posts/retail-posts.component';
 import { FeaturedPostsComponent } from './featured-posts/featured-posts.component';
 import { FooterPopularPostsComponent } from './footer-popular-posts/footer-popular-posts.component';
 
+export const firebaseConfig = {
+  apiKey: masterFirebaseConfig.apiKey,
+  authDomain: masterFirebaseConfig.authDomain,
+  databaseURL: masterFirebaseConfig.databaseURL,
+  storageBucket: masterFirebaseConfig.storageBucket
+};
 
 @NgModule({
   declarations: [
@@ -20,7 +28,9 @@ import { FooterPopularPostsComponent } from './footer-popular-posts/footer-popul
     FooterPopularPostsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule
   ],
   providers: [],
   bootstrap: [AppComponent]
